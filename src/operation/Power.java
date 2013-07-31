@@ -2,20 +2,17 @@ package operation;
 
 import arithematic.Rational;
 
-public class Power extends UnaryOperation {
-
-	private Integer exponent;
-
-	public Power(Rational r, Integer exp)
+public class Power extends BinaryOperation {
+	
+	public Power(Rational r1, Rational r2)
 	{
-		super(r);
-		this.exponent = exp;
+		super(r1,r2);
 	}
 	
 	@Override
 	public Rational execute() 
 	{
-		return args[0].power(exponent);
+		return args[0].power(args[1].intValue());
 	}
 
 }
