@@ -1,0 +1,1 @@
+This project is a rational number expression solver which takes input as a rational expression provided as a String and solves the result by providing the output as rational number expressed in the form of p/q where p and q are integers and q>0.
