@@ -5,7 +5,7 @@ import expression.token.Token;
 /**
  * This is a default implementation for the analyser.
  * This analyser treats all operations to be binary
- * operations. All unary operations are parsed to operands
+ * operations. All unary operations are parsed to operands.
  * 
  * @author mickey
  *
